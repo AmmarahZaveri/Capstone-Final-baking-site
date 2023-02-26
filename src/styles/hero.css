@@ -94,10 +94,10 @@
 .cake_img{
     width: 100px;
     position: absolute;
-    top: 55%;
-    left: -11%;
+    top: 70%;
+    left: 50%;
     z-index: 10;
-    box-shadow: -3px 3px 8px -1px #d3cef2;
+    box-shadow:   3px -3px 8px -1px #d3cef2;
     text-align: center;
     background: #fff;
     border-radius: 5px;
@@ -106,14 +106,14 @@
 }
 
 .cake_img span{
-    width: 30px;
-    height: 25px;
+    width: 40px;
+    height: 30px;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #d3cef2;
-    color:rgb(247, 93, 147);
+    background: rgb(250, 226, 186);
+    color:rgb(167, 111, 38);
     border-radius: 3px;
     padding: 3px;
 }
@@ -134,10 +134,10 @@
 
 .class_location{
     position: absolute;
-    top: -2%;
-    left: -17%;
+    top: -10%;
+    left: -7%;
     z-index: 10;
-    box-shadow: 3px -3px 8px -1px #d3cef2;
+    box-shadow: -3px 3px 8px -1px #d3cef2;
     text-align: center;
     background: #fff;
     border-radius: 5px;
@@ -167,9 +167,8 @@
 
 .cake_icon {
     position: absolute;
-    top: -2%;
-    left: -5%;
-    left: -5%;
+    top: -10%;
+    left: 75%;
     z-index: 10;
     display: flex;
     align-items: center;

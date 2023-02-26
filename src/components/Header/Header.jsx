@@ -4,19 +4,19 @@ import logo from '../../assets/img/henna1.png'
 const nav_links = [
     {
         path:'#',
-        display:'Home;'
+        display:'Home'
     },
     {
         path:'#',
-        display:'Schedule;'
+        display:'Schedule'
     },
     {
         path:'#',
-        display:'Classes;'
+        display:'Classes'
     },
     {
         path:'#',
-        display:'Pricing;'
+        display:'Pricing'
     },
 ]
 

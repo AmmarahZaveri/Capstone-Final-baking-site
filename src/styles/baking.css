@@ -1,0 +1,71 @@
+.baking_top{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.baking_top h2{
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.baking_top p{
+    color: var(--heading-color);
+    font-size: 1rem;
+    line-height: 28px;
+
+}
+
+.baking_wrapper{
+    background: var(--bg-gradient);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+}
+
+.baking_item{
+    display: flex;
+    align-items: center;
+    column-gap: 1.2rem;
+    width: 33%;
+
+}
+
+.baking_icon {
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background: #fff;
+
+    
+}
+
+.baking_icon img{
+    width: 100%;
+   
+
+}
+
+.baking_content{
+    width: 80%;
+}
+
+.baking_content h4{
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0.6rem;
+
+}
+
+.baking_content p{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.801);
+    font-weight: 500;
+    margin-bottom: 0.6rem;
+}
