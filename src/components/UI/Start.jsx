@@ -1,30 +1,32 @@
-import React from 'react'
-import '../../styles/start.css'
-import bakergirl from '../../assets/img/bake1.png'
+import React from 'react';
+import '../../styles/start.css';
+import bakergirl from '../../assets/img/bakePeople.png';
+import { Link } from 'react-router-dom';
 
 const Start = () => {
-    return <section>
-        <div className='container'>
-            <div className='start_wrapper'>
-                <div className='start_img'>
-                    <img src={bakergirl} alt="" />
-                </div>
+  return (
+    <section>
+      <div className='container'>
+        <div className='start_wrapper'>
+          <div className='start_img'>
+            <img src={bakergirl} alt='' />
+          </div>
 
-                <div className='start_content'>
-                    <h2 className='section_title'>
-                        Ready to <span className="highlights">learn</span> the secrets of sweets?
-                    </h2>
-                    <p>mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm<br />mmmmmm
-                        mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
-                    </p>
+          <div className='start_content'>
+            <h2 className='section_title'>
+              Start your <span className='highlights'>FIRST</span> class today!
+            </h2>
+            <p>mmmmmmmmmmmmmmmmmm</p>
 
-                    <button className="register_btn"> Get started today</button>
-                </div>
+            <Link to='/form'>
+              <button className='register_btn'>Join now</button>
+            </Link>
 
-            </div>
-
+          </div>
         </div>
+      </div>
     </section>
-}
+  );
+};
 
-export default Start
+export default Start;

@@ -1,5 +1,6 @@
 import React from 'react';
-import "../../styles/header.css";
+import styles from  "../../styles/header.css";
+import { Link } from "react-router-dom";
 import logo from '../../assets/img/henna1.png'
 const nav_links = [
     {
@@ -43,7 +44,9 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="nav_right">
+                    
                     <button className="register_btn">Register</button>
+                    
                     <span className="mobile_menu">
                         <i class="ri-menu-line"></i>
                     </span>

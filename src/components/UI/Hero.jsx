@@ -7,17 +7,21 @@ const Hero =() => {
         <div className="container">
             <div className="hero_wrapper">
                 <div className="hero_content">
-                    <h2>Get your <span className="highlights"> FIRST</span> class today or seomthing</h2>
-                    <p>other randon stuff rrrrrrrrrrrrrrrr
-                        rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-                        rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr <br />
-                        rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-                        rrrrrrrrrrrr.</p>
+                    <h2>Welcome to <span className="highlights">ZAVERI</span>, a haven for all things <br />
+                    sweet and savory.</h2>
+                    <p>At ZAVERI you can learn the fundamentals of cooking from professionals while <br />
+                    remaining comfortable in your own kitchen. Our cuting-edge online curriculum <br />
+                    examines palate development, culinary business principles, theory, science, and <br />
+                    practice for many popular cuisines. A practical industry externship is a component <br />
+                    of the program that will help you develop your abilities and gain practical baking <br />
+                    and cooking experience. We have expertly designed a comprehensive curriculum <br />
+                    delivered online as well as access to live culinary expert demos, lectures, and <br />
+                    networking events. At ZAVERI, we are felixible. life-friendly, affordable and offer <br />
+                    a supportive community environment. Join today and find your culinary voice!</p>
                         
                         <div className="hero_btns">
                             <button className="register_btn">Get Started</button>
-                            <button className="watch_btn"><span><i class="ri-play-fill"></i>
-                            </span>Watch video</button>
+                            
 
                         </div>
                 </div>
@@ -35,8 +39,9 @@ const Hero =() => {
                             </div>
                         </div>
                         <div className="cake_img">
-                            <h5>Try classics</h5>
-                            <span><i class="ri-cake-2-line"></i></span>
+                            <h5>Achieve</h5>
+                            <span><i class="ri-medal-2-line"></i></span>
+                            <h6>new skills</h6>
                         </div>
 
                         <div className='class_location'>
@@ -48,7 +53,7 @@ const Hero =() => {
                         </div>
 
                         <div className='cake_icon'>
-                        <span><i class="ri-cake-3-line"></i></span>
+                        <span><i class="ri-earth-fill"></i></span>
                         </div>
                     </div>
                 </div>

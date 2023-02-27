@@ -2,12 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 
 :root {
-  --primary-color: #e8c181;
-  --heading-color: #132742;
+  --primary-color: #e7bc77;
+  --heading-color: #2c2412;
   --bg-gradient: linear-gradient(
     90deg,
     rgb(189, 132, 66) 27%,
-    rgb(240, 179, 95) 85%
+    rgb(213, 191, 160) 85%
   );
   --font-name: "Questrial", sans-serif;
 

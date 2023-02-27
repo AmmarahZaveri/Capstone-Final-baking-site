@@ -34,6 +34,7 @@ const Pricing = () => {
                             <li><span><i class="ri-checkbox-blank-circle-fill"></i></span>pls help</li>
                             <li><span><i class="ri-checkbox-blank-circle-fill"></i></span>more food</li>
                         </ul>
+                        
                         <button className='register_btn'>Join Now</button>
                     </div>
                 </div>
