@@ -13,30 +13,29 @@ const Footer = () => {
                         </div>
                         <h2>ZAVERI</h2>
                     </div>
-                    <p>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-                        hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+                    <p>You have reached the end!
                     </p>
                 </div>
 
                 <div className="footer_box">
-                    <h4 className="footer_title">Company</h4>
+                    <h4 className="footer_title">Information</h4>
 
                     <ul className="footer_links">
-                        <li><a href="">Our program</a></li>
-                        <li><a href="">Our Plan</a></li>
-                        <li><a href="">Become a member</a></li>
-                        <li><a href=""></a></li>
+                        <li><a href="">Offered Programs</a></li>
+                        <li><a href="">Our Plans</a></li>
+                        <li><a href="">Become a Member</a></li>
+                        <li><a href="">Individual Classes</a></li>
                     </ul>
                 </div>
 
 
                 <div className="footer_box">
-                    <h4 className="footer_title">Qyuick Links</h4>
+                    <h4 className="footer_title">Quick Links</h4>
 
                     <ul className="footer_links">
-                        <li><a href="">About us</a></li>
-                        <li><a href="">Contact us</a></li>
-                        <li><a href="">Become a member</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Social Media</a></li>
                         <li><a href="">Support</a></li>
                     </ul>
                 </div>
@@ -44,12 +43,11 @@ const Footer = () => {
 
 
                 <div className="footer_box">
-                    <h4 className="footer_title">Qyuick Links</h4>
+                    <h4 className="footer_title">Help</h4>
 
                     <ul className="footer_links">
-                        <li><a href="">About us</a></li>
-                        <li><a href="">Contact us</a></li>
-                        <li><a href="">Become a member</a></li>
+                        <li><a href="">Ask Question</a></li>
+                        <li><a href="">Memberships</a></li>
                         <li><a href="">Support</a></li>
                     </ul>
                 </div>

@@ -21,9 +21,13 @@ const nav_links = [
     },
 ]
 
+
+
 const Header = () => {
     return (
+        
     <header className="header">
+        
         <div className="container">
             <div className="nav_wrapper">
                  <div className="logo">
