@@ -1,6 +1,7 @@
 import React from 'react'
 import heroImg from '../../assets/img/henna2.png'
 import '../../styles/hero.css'
+import { Link } from 'react-router-dom';
 
 const Hero =() => {
     return <section>
@@ -20,7 +21,9 @@ const Hero =() => {
                     a supportive community environment. Join today and find your culinary voice!</p>
                         
                         <div className="hero_btns">
-                            <button className="register_btn">Get Started</button>
+                        <Link to='/classes'>
+                            <button className='register_btn'>Get Started</button>
+                            </Link>
                             
 
                         </div>

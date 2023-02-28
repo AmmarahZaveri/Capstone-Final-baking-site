@@ -1,33 +1,31 @@
 import "./App.css";
-import React from "react"
+import React from "react";
 import Header from "./components/Header/Header";
 import Footer from "./components/UI/Footer";
-
 import Form from "./components/Form/Form";
-
-import Home from "./components/Home/Home"
-
-
-import {  BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
-
+import Classes from "./components/classes/Classes";
+import Home from "./components/Home/Home";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import axios from 'axios';
 
 
 function App() {
+
   return (
     <>
     <Header />
     <main>
+
       <Router>
       <Routes>
         <Route path='/form' element={<Form />} />
-        <Route path='/' element={<Home />} />
-        </Routes>
+        <Route path='/classes' element={<Classes />} />
 
+        <Route path='/' element={<Home />} />
+      </Routes>
       </Router>
    
-     
-
+      
     </main>
    
     <Footer />
@@ -37,7 +35,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
